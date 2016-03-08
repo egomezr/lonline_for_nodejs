@@ -1,4 +1,4 @@
-# Lonline for NodeJs 0.0.1
+# Lonline for NodeJs 0.0.2
 Lonline allows you to log your program's execution into the cloud to avoid server access and disk space usage.
 
 Lonline provides 6 levels of logging and 2 methods to execute reports.  Lonline is a logger to log your program through a storing service called Dynamicloud.  With Dynamicloud we can store data dynamically and very easy, Lonline allows you to set more features and this way log more than only text, level and program trace.

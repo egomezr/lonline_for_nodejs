@@ -1,9 +1,9 @@
 {
   "name": "lonline",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lonline allows you to log your program's execution into the cloud to avoid server access and disk space usage.",
   "main": "lonline.js",
-  "private": true,
+  "private": false,
   "scripts": {},
   "keywords": [
     "cloud",
@@ -11,6 +11,7 @@
     "dynamicloud"
   ],
   "dependencies": {
+    "dynamicloud": ">= 1.0.0"
   },
   "license": "MIT"
 }
