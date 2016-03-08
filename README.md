@@ -21,7 +21,7 @@ Lonline provides 6 levels of logging and 2 methods to execute reports.  Lonline 
 
 You can install this module in your system using the npm command:
  
-`npm install dynamicloud`
+`npm install lonline`
 
 #Settings
 
