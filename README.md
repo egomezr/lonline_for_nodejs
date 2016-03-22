@@ -162,7 +162,7 @@ A model is the cointainer of these fields, to add a model follow the next steps:
 
 ####The last step is to copy the API credentials (CSK and ACI keys) to put them in your `settings.json` file.
 
-1. Click on **Your name link at right top of your account**
+1. Click on **Your name link at left top of your account**
 2. Copy the CSK and ACI keys and put them into your `settings.json` file.
 
 ```json
