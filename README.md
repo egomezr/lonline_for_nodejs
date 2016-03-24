@@ -15,7 +15,7 @@ Lonline provides 6 levels of logging and 2 methods to execute reports.  Lonline 
   3. [Execute reports](#execute-reports)
 
 #Dependencies
-**Lonline has one depedendency:** dynamicloud
+**Lonline has one dependendency:** dynamicloud
 
 #Installation
 
