@@ -131,10 +131,10 @@ b. **`lonlinelevel` is a combobox.  You need to add the following options:**
   
 | Value | Text |
 | --- | --- |
-| `Fatal` | Fatal |
+| `fatal` | Fatal |
 | `error` | Error |
 | `warn` | Warn |
-| `Info` | Info |
+| `info` | Info |
 | `debug` | Debug |
 | `trace` | Trace |
 
