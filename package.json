@@ -4,7 +4,13 @@
   "description": "Lonline allows you to log your program's execution into the cloud to avoid server access and disk space usage.",
   "main": "lonline.js",
   "private": false,
-  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dynamicloud/lonline_for_nodejs.git"
+  },
+  "scripts": {
+    "test": "node test/test_lonline.js"
+  },
   "keywords": [
     "cloud",
     "logger",

@@ -207,7 +207,11 @@ var Reporter = {
         query.count = 20;
 
         query.getResultsByProjection(['count(*) count'], function (error, results) {
-            callback(results['records'][0]['count']);
+            if (results['records']) {
+                callback(results['records'][0]['count']);
+            } else {
+                callback(0);
+            }
         });
     },
     FATAL: 'fatal',

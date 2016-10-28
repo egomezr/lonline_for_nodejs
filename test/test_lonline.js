@@ -1,9 +1,9 @@
 var assert = require('assert');
 var helper = require('./helper.js');
-var lonline = require('lonline');
+var lonline = require('../lonline/lonline.js');
 
 var logger = lonline.getLogger({
-    fileName: './settings.json',
+    fileName: __dirname + '/settings.json',
     /**
      * This is an emulation of a legacy logger.
      */
@@ -59,7 +59,7 @@ helper.describe('Lonline logger', function () {
  * Test Lonline reporter
  * @type {Reporter}
  */
-var reporter = lonline.getReporter({fileName: './settings.json'});
+var reporter = lonline.getReporter({fileName: __dirname + '/settings.json'});
 
 helper.describe('Lonline reporter', function () {
     var today = new Date();
