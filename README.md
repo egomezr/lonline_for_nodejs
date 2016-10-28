@@ -1,4 +1,4 @@
-# Lonline for NodeJs 0.0.2
+# Lonline for NodeJs v0.0.2
 Lonline allows you to log your program's execution into the cloud to avoid server access and disk space usage.
 
 Lonline provides 6 levels of logging and 2 methods to execute reports.  Lonline is a logger to log your program through a storing service called Dynamicloud.  With Dynamicloud we can store data dynamically and very easy, Lonline allows you to set more features and this way log more than only text, level and program trace.
@@ -15,7 +15,7 @@ Lonline provides 6 levels of logging and 2 methods to execute reports.  Lonline 
   3. [Execute reports](#execute-reports)
 
 #Dependencies
-**Lonline has one depedendency:** dynamicloud
+**Lonline has one dependendency:** dynamicloud
 
 #Installation
 
@@ -131,10 +131,10 @@ b. **`lonlinelevel` is a combobox.  You need to add the following options:**
   
 | Value | Text |
 | --- | --- |
-| `Fatal` | Fatal |
+| `fatal` | Fatal |
 | `error` | Error |
 | `warn` | Warn |
-| `Info` | Info |
+| `info` | Info |
 | `debug` | Debug |
 | `trace` | Trace |
 
@@ -162,7 +162,7 @@ A model is the cointainer of these fields, to add a model follow the next steps:
 
 ####The last step is to copy the API credentials (CSK and ACI keys) to put them in your `settings.json` file.
 
-1. Click on **Your name link at right top of your account**
+1. Click on **Your name link at left top of your account**
 2. Copy the CSK and ACI keys and put them into your `settings.json` file.
 
 ```json
