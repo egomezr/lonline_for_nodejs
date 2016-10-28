@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dynamicloud/lonline_for_nodejs.svg?branch=master)](https://travis-ci.org/dynamicloud/lonline_for_nodejs)
+
 # Lonline for NodeJs v0.0.2
 Lonline allows you to log your program's execution into the cloud to avoid server access and disk space usage.
 
