@@ -78,7 +78,7 @@ var ops = {
      aci: 'aci#...',
      //This is the model identifier for test and development environment
      //The model contains the structure to store logs into the cloud
-     //For more information about models in Dynamicloud visit https://www.dynamicloud.org/documents/mfdoc
+     //For more information about models in Dynamicloud visit https://www.dynamicloud.org/documents/apidoc#main_concepts
      modelIdentifier: 000,
      //OPTIONAL: Shows every warning like rejected request from Dynamicloud and other warnings in lonline
      warning: true,
