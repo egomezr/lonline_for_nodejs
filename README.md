@@ -7,7 +7,7 @@ Lonline provides 6 levels of logging and 2 methods to execute reports.  Lonline 
 
 **This documentation has the following content:**
 
-1. [Dependencies](#dependencies)
+1. [Dependencies](#dependencies)      
 2. [Settings](#settings)
   1. [Installation](#installation)
   2. [Dynamicloud account](#dynamicloud-account)
