@@ -127,9 +127,9 @@ var ops = {
 
 Lonline needs API credentials from a Dynamicloud account, these credentials allow Lonline to access your account's structure (Model).  The mandatory model in your account should be composed for a model with at least three fields.  For further information about models and fields in Dynamicloud visit its documentation at [Main concepts](https://www.dynamicloud.org/documents/apidoc#main_concepts "Dynamicloud documentation")
 
-If you don't have a Dynamicloud account, <a href="https://lonline.io/" target="_blank">Lonline Manager</a> provides an option on <a href="https://lonline.io/auth/signup" target="_blank">Sign up</a> page to create a Dynamicloud account for you.
+> If you don't have a Dynamicloud account, <a href="https://lonline.io/" target="_blank">Lonline Manager</a> provides an option on <a href="https://lonline.io/auth/signup" target="_blank">Sign up</a> page to create a Dynamicloud account for you.
 
-Another tool in Lonline Manager is a <a href="https://lonline.io/wizard" target="_blank">Configuration Wizard</a> to setup Lonline in your system.
+> Another tool in Lonline Manager is a <a href="https://lonline.io/wizard" target="_blank">Configuration Wizard</a> to setup Lonline in your system.
 
 **We are going to explain step by step how to setup your account in Dynamicloud, trust us it's very easy:**
 
