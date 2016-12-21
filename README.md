@@ -12,7 +12,7 @@ Lonline provides 6 levels of logging and 2 methods to execute reports.  Lonline 
 
 #Lonline manager (Beta)
 
-This manager allows you to check your logs from anywhere, likewise you will be able to configure alerts, execute searchs, import and create containers, etc.
+This manager allows you to check your logs from anywhere, likewise you will be able to configure alerts, execute searchs, import and create containers, <a href="https://lonline.io/wizard" target="_blank">Configuration Wizard</a>, etc.
 
 **Access here:** <a href="https://lonline.io/" target="_blank">Lonline manager</a>
 
