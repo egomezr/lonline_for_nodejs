@@ -1,4 +1,4 @@
-![alt text](http://lonline.dynamicloud.org/assets/img/lonline-logo.png?rand=1 "Lonline logo")
+![Lonline Logo](https://lonline.io/assets/img/lonline-logo.png?rand=1 "Lonline logo")
 
 <hr>
 
