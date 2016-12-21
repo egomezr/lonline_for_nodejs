@@ -10,6 +10,12 @@ Lonline allows you to log your program's execution into the cloud to avoid serve
 
 Lonline provides 6 levels of logging and 2 methods to execute reports.  Lonline is a logger to log your program through a storing service called Dynamicloud.  With Dynamicloud we can store data dynamically and very easy, Lonline allows you to set more features and this way log more than only text, level and program trace.
 
+#Lonline manager (Beta)
+
+This manager allows you to check your logs from anywhere, likewise you will be able to configure alerts, execute searchs, import and create containers, etc.
+
+**Access here:** <a href="https://lonline.io/" target="_blank">Lonline manager</a>
+
 **This documentation has the following content:**
 
 1. [Dependencies](#dependencies)      
