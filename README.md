@@ -10,7 +10,7 @@ Lonline allows you to log your program's execution into the cloud to avoid serve
 
 Lonline provides 6 levels of logging and 2 methods to execute reports.  Lonline is a logger to log your program through a storing service called Dynamicloud.  With Dynamicloud we can store data dynamically and very easy, Lonline allows you to set more features and this way log more than only text, level and program trace.
 
-#Lonline manager (Beta)
+# Lonline manager
 
 This manager allows you to check your logs from anywhere, likewise you will be able to configure alerts, execute searchs, import and create containers, <a href="https://lonline.io/wizard" target="_blank">Configuration Wizard</a>, etc.
 
@@ -30,13 +30,13 @@ This manager allows you to check your logs from anywhere, likewise you will be a
 #Dependencies
 **Lonline has one dependendency:** dynamicloud
 
-#Installation
+# Installation
 
 You can install this module in your system using the npm command:
  
 `npm install lonline`
 
-#Settings
+# Settings
 
 Lonline needs a basic settings to be configured, the settings of Lonline are within a settings file.
 
@@ -123,7 +123,7 @@ var ops = {
 }
 ```
 
-###Dynamicloud account
+### Dynamicloud account
 
 Lonline needs API credentials from a Dynamicloud account, these credentials allow Lonline to access your account's structure (Model).  The mandatory model in your account should be composed for a model with at least three fields.  For further information about models and fields in Dynamicloud visit its documentation at [Main concepts](https://www.dynamicloud.org/documents/apidoc#main_concepts "Dynamicloud documentation")
 
@@ -177,7 +177,7 @@ A model is the cointainer of these fields, to add a model follow the next steps:
 }
 ```
 
-####The last step is to copy the API credentials (CSK and ACI keys) to put them in your `settings.json` file.
+#### The last step is to copy the API credentials (CSK and ACI keys) to put them in your `settings.json` file.
 
 1. Click on **Your name link at left top of your account**
 2. Copy the CSK and ACI keys and put them into your `settings.json` file.
@@ -191,10 +191,10 @@ A model is the cointainer of these fields, to add a model follow the next steps:
 
 At this moment you have the necessary to start to log your program into the cloud.
 
-#How to use
+# How to use
 Lonline is easy to use, one line of code logs and stores into the cloud.
 
-###Log using the six levels
+### Log using the six levels
 
 ```javascript
 var lonline = require('lonline');
@@ -208,7 +208,7 @@ logger.error('Unable to load setting file');
 logger.fatal('The app has crashed and its state is unavailable');
 ```
 
-###Additional data
+### Additional data
 Lonline allows you to log further data.  If you want to log more information (For example: The module in your application who has executed the log.) just pass a LonlineLog object with the attributes and values.  Remember that these additional attributes must match with the fields in your model, so you need to add these fields before to log.
 
 **To log additional information, follow the code below:**
@@ -222,7 +222,7 @@ logger.trace('Calling method Y', null/*This is the error object*/, {
 });
 ```
 
-###Execute reports
+### Execute reports
 Lonline allows you to execute reports about the executed logs and count how many logs have been created so far.
 
 ```javascript
