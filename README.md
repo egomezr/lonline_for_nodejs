@@ -246,5 +246,3 @@ reporter.count(reporter.FATAL, fromDate, tomorrow, function (count) {
     assert(count > 0);
 });
 ```
-
-For further information and support about lonline, contact us at [Contact](https://www.dynamicloud.org/contact "Dynamicloud contact")
