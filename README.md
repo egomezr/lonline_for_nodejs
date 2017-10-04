@@ -1,8 +1,3 @@
-![Lonline Logo](https://lonline.io/assets/img/lonline-logo.png?rand=1 "Lonline logo")
-
-<hr>
-
-[![Build Status](https://travis-ci.org/dynamicloud/lonline_for_nodejs.svg?branch=master)](https://travis-ci.org/dynamicloud/lonline_for_nodejs) ![alt text](https://david-dm.org/dynamicloud/lonline_for_nodejs.svg "")
 [![npm version](https://badge.fury.io/js/lonline.svg)](https://badge.fury.io/js/lonline)
 
 # For NodeJs 
